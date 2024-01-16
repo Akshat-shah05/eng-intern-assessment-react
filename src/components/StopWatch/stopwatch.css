@@ -1,0 +1,11 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 5rem;
+}
+
+.timer-text {
+    font-size: 5rem;
+    margin: 10px;
+}
+
