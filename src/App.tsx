@@ -30,8 +30,8 @@ export default function App() {
             </div>
             
             <h1> Laps </h1>
-            {laps.map(lap => (
-                <Laps lap={lap}></Laps>
+            {laps.map((lap, index) => (
+                <Laps key={index} lap={lap}></Laps>
             ))}
         </>
     )
